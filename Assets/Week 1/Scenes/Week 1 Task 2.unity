@@ -528,6 +528,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 344f8bf566cba7c428a266ceb94abb6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 6172834424268128050, guid: 2394d36c230e00d48a273e25b1d487aa, type: 3}
+  spawn: {fileID: 1522629798}
 --- !u!4 &1980033631
 Transform:
   m_ObjectHideFlags: 0
