@@ -5,7 +5,7 @@ using UnityEngine;
 public class Wall : MonoBehaviour
 {
     public Rigidbody2D rigidbody;
-    public float speed = 40;
+    public float speed = 70;
     // Start is called before the first frame update
     void Start()
     {
