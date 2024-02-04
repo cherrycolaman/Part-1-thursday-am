@@ -6,6 +6,8 @@ public class PhysicsSwitch : MonoBehaviour
 {
     SpriteRenderer spriteRenderer;
     public Color myColor;
+    public GameObject ball;
+    public Transform spawn;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,7 @@ public class PhysicsSwitch : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         spriteRenderer.color = Color.green;
+        Instantiate(ball, spawn.position, spawn.rotation);
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
